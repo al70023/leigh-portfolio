@@ -1,0 +1,278 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: bold; */
+}
+
+h6 {
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+
+pre {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+p {
+  color: #696969;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: bold; */
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #696969;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.red-section {
+  background-color: #E4F9F5;
+  color: #696969;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+
+/*--------------------------------------------------------------
+# Title
+--------------------------------------------------------------*/
+#title .container-fluid {
+  padding: 0 0 36%;
+}
+
+.title-img-div {
+  width: 200%;
+  position: fixed;
+  text-align: left;
+}
+
+.title-img-text {
+  position: absolute;
+  text-align: center;
+  left: 475.325px;
+  bottom: 350px;
+  color: white;
+  z-index: 1;
+}
+
+.title-img-text h1, h2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 50px;
+  font-family: 'Vollkorn';
+  font-weight: bold;
+}
+
+.arrow {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.arrow:hover {
+  color: gray;
+}
+
+/*--------------------------------------------------------------
+# Navigation Bar
+--------------------------------------------------------------*/
+#navigation {
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 10px 10px -7px LightGrey; /* shift right, shift down, blurriness, extent covered out*/
+  z-index: 2;
+}
+
+.navbar {
+  padding: 0 5%;
+}
+
+.navbar-brand {
+  font-family: 'times new roman';
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.fixed-top {
+  position: fixed;
+}
+
+
+/*--------------------------------------------------------------
+# About Me
+--------------------------------------------------------------*/
+#about-me {
+  position: relative;
+  box-shadow: 0px 10px 10px -7px LightGrey; /* shift right, shift down, blurriness, extent covered out*/
+  z-index: 1;
+}
+
+.profile-image {
+  width: 65%;
+  margin-left: 150px;
+  border-radius: 5%;
+  box-shadow: 1px 5px 90px -2px #5F9EA0; /* shift right, shift down, blurriness, extent covered out*/
+}
+
+#about-me .container-fluid {
+  padding: 5% 10%;
+}
+
+#about-me p {
+  font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# My Work
+--------------------------------------------------------------*/
+#my-work {
+  position: relative;
+  padding: 3% 0;
+}
+
+.work-image {
+  width: 40%;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.work-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-indicators {
+  filter: invert(1);
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+/*--------------------------------------------------------------
+# My Passions
+--------------------------------------------------------------*/
+#my-passions {
+  position: relative;
+  box-shadow: 0px 0px 10px 2px LightGrey; /* shift right, shift down, blurriness, extent covered out*/
+  z-index: 1;
+}
+
+#my-passions .container-fluid {
+  padding: 3% 10% 5%;
+}
+
+.passion-box {
+  margin-top: 5%;
+}
+
+.passion-title {
+  margin-top: 5%;
+}
+
+.passion-img {
+  width: 90%;
+  border-radius: 10%;
+  box-shadow: 1px 5px 90px -2px #5F9EA0; /* shift right, shift down, blurriness, extent covered out*/
+}
+
+.passion-img:hover {
+  /* box-shadow: 0 0 11px rgba(33,33,33,.2);  */
+  filter: saturate(.5);
+  filter: drop-shadow(0 0 0.75rem #5F9EA0);
+}
+
+
+/*--------------------------------------------------------------
+# My Passions
+--------------------------------------------------------------*/
+#resume {
+  position: relative;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*--------------------------------------------------------------
+# Contact Me
+--------------------------------------------------------------*/
+#contact-me {
+  position: relative;
+  box-shadow: 0px 0px 10px 2px LightGrey; /* shift right, shift down, blurriness, extent covered out*/
+  z-index: 1;
+}
+
+#contact-me .container-fluid {
+  padding: 3% 10% 5%;
+}
+
+.contact-about, .contact-info, .contact-description {
+  text-align: left;
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  position: relative;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+/* Title Mobile Responsive Version  */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  /* .title-image {
+    position: static;
+    transform: rotate(0);
+  } */
+}
