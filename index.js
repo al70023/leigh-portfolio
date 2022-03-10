@@ -1,4 +1,4 @@
-window.alert("sometext");
+
 document.addEventListener("DOMContentLoaded", function(){
   window.addEventListener('scroll', function() {
       if (window.scrollY > 550) {
